@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Madimi+One&display=swap');
+
+
+
+:root{
+    --cor1: #ff2e7e;
+    --cor2: #EAE0D5;
+    --cor3: #810070;
+    --cor4: #ad0c00;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor2);
+    margin: 0px;
+
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3), var(--cor2));
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+header > nav{
+    text-align: left;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+header > h1{
+    padding-top: 25px;
+    margin-top: 0px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+header > p{
+    text-align: center;
+    text-indent: 0px;
+}
+
+
+nav > a{
+    padding: 4px;
+    margin-right: 8px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Kanit", sans-serif;
+}
+
+nav > a:hover{
+    background-color: rgba(145, 0, 0, 0.408);
+}
+
+nav > a:active{
+    background-color: #ff25252a;
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+    background-color: var(--cor2);
+    padding: 10px;
+}
+
+h1{
+    margin-top: 0px;
+    font-family: "Kanit", sans-serif;
+}
+
+p{
+    text-indent: 15px;
+    line-height: 1.4em;
+    text-align: justify;
+    
+}
+
+mark{
+    background-color: var(--cor1);
+    padding: 1px;
+}
+
+.linkvideo{
+    color: var(--cor1);
+    text-decoration: none;
+}
+
+.linkvideo:hover{
+    text-decoration: underline;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+#vermelho{
+    border: 1px solid #910000;
+}
+
+#margem{
+    margin-top: 30px;
+}
